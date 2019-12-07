@@ -1,0 +1,15 @@
+[package]
+name = "example_cat_bot"
+version = "0.1.0"
+authors = ["Waffle <waffle.lapkin@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+teloxide = { git = "https://github.com/teloxide/teloxide", rev = "7b3c51ff1baaf90a3e2d2282489dab8cebacc3f3" }
+tokio = "0.2.0-alpha.6"
+reqwest = { version = "0.10.0-alpha.1" }
+futures-preview = "0.3.0-alpha.19"
+serde = "1.0.103"
+serde_json = "1.0.44"
